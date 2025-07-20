@@ -1,0 +1,104 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+padding: 25;
+}
+.logo-header {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21;
+    letter-spacing: 3%;
+    color: #4D5AE5;
+    padding-left: 156px;
+    text-decoration: none;
+
+}
+.span-studio {
+    font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21;
+        letter-spacing: 3%;
+        color: #2E2F42;
+        text-decoration: none;
+}
+
+.header-list {
+    color: #2E2F42 ;
+    text-decoration: none;
+    display: flex;
+line-height: 1.5;
+    padding: 40;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+h2 {
+    text-align: center;
+}
+.h1-main {
+    text-align: center;    
+        position: absolute;
+        width: 496px;
+        height: 120px;
+        left: 472px;
+        top: 260px;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        color: white;
+
+
+}
+.section-main {
+  
+        position: relative;
+        width: 100%;
+        height: 600px;
+        left: 0px;
+        top: 72px;
+        background: #2E2F42;
+}
+.button-order {
+    width: 105px;
+        height: 24px;
+align-items: center;
+ padding: 32 16;    
+        position: absolute;
+            width: 169px;
+            height: 56px;
+            left: 636px;
+            top: 428px;
+        background: #4D5AE5;
+ border-radius: 4px;
+font-family: var(Roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: "#FFFFFF";
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-list-li {
+    text-align: center;
+    width: 264;
+    margin-bottom: 20;
+}
