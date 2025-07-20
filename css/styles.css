@@ -45,6 +45,22 @@ font-weight: 700;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.adress-list:hover {
+    color: #404bbf;
+}
+
+.adress-list:focus {
+    color: #404bbf;
+}
+.adress-list {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #434455;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 
 ul li {
