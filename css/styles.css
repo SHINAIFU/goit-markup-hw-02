@@ -36,7 +36,7 @@ font-weight: 700;
 .header-list {
     font-style: normal;
     font-weight: 500;
-    color: #2E2F42 ;
+    color: #434455 ;
     text-decoration: none;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -49,7 +49,7 @@ ul li {
 h2 {
     text-align: center;
 }
-.h1-main {
+.hero-main {
     text-align: center;    
      
         font-style: normal;
@@ -66,6 +66,9 @@ h2 {
 .button-order:hover {
     background-color:#404BBF ;
 }
+.button-order:focus {
+    background-color: #404BBF;
+}
 .button-order {
     color: #FFFFFF;
 background-color: #4D5AE5;
@@ -75,6 +78,13 @@ font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+}
+.hero-benefits {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 .section-benefits {
     font-weight: 500;
@@ -107,7 +117,7 @@ font-family: "Roboto", sans-serif;
     color: #2e2f42;
     letter-spacing: 0.02em;
 }
-.h3-team {
+.hero-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -128,7 +138,7 @@ font-family: "Roboto", sans-serif;
     text-transform: capitalize;
     color: #2e2f42;
 }
- .h3-portfolio {
+ .hero-portfolio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
